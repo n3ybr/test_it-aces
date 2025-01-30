@@ -50,7 +50,7 @@ func getCategories(db *sql.DB, id int) ([]Category, error) {
 }
 
 func main() {
-	db, err := sql.Open("postgres", "user=postgres password=Qazwsx12 dbname=test sslmode=disable")
+	db, err := sql.Open("postgres", "user=*** password=*** dbname=*** sslmode=disable")
 	if err != nil {
 		log.Fatal(err)
 	}
